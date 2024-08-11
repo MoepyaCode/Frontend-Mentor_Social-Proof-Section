@@ -98,7 +98,7 @@ export default function App() {
     ]
 
     return (
-      <Wrapper className={`w-full flex flex-wrap xl:flex-nowrap md:min-h-[266px]  md:justify-between md:items-center gap-[16px]`}>
+      <Wrapper className={`w-full flex flex-wrap xl:flex-nowrap md:min-h-[266px]  md:justify-between md:items-center gap-[16px] xl:gap-[30px]`}>
         {
           userComments.map((comment, index) => (
             <Wrapper key={index} className='px-[32px] pt-[40px] pb-[35px] w-full bg-[#512051] rounded-[8px] flex flex-col flex-nowrap justify-between gap-[23px] md:gap-[31px] md:first-of-type:self-start md:last-of-type:self-end xl:max-w-[350px] md:min-h-[auto] xl:min-h-[234px]'>
