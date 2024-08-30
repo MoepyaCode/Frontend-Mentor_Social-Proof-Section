@@ -1,4 +1,4 @@
-# Title
+# Social proof section
 
 <!-- add description of project -->
 
